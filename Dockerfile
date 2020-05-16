@@ -1,8 +1,8 @@
 ARG psversion=11
 
-MAINTAINER Vishnu Nair <me@vishnudxb.me>
-
 FROM postgres:$psversion
+
+MAINTAINER Vishnu Nair <me@vishnudxb.me>
 
 ENV POSTGRES_USER postgres
 
